@@ -104,6 +104,10 @@ public class Handler {
                             gameHandler.togglePlayer();
                         }
                     }
+                    else {
+                        selectedTokenLocation = -1;
+                        nextAction = NEXTACTIONTYPE.SELECT_TOKEN;
+                    }
                     break;
 
                 default:
